@@ -1,0 +1,116 @@
+.card-container{
+width:400px;
+overflow: hidden;
+display: inline-block;
+margin: 30px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 0.2s;
+animation: ease-in-out;
+}
+.card-container:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+.image-container{
+    overflow: hidden;
+    height:350px;
+}
+.btn-add-to-cart{
+    display: inline-block;
+    justify-content: center;
+    
+}
+.btn-add-to-cart button{
+    padding: 4px;
+    border: 5px solid dodgerblue;
+    background-color: aqua;
+    color:darkblue;
+    margin:15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn-add-to-cart button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+.back-to-home{
+    display:flex;
+    justify-content: left;
+}
+.back-to-home button{
+    padding: 4px;
+    border: 5px solid dodgerblue;
+    background-color: aqua;
+    color:darkblue;
+    margin:15px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.back-to-home button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+
+
+.div_table 
+{
+    display:flex;
+    flex-flow:column;
+    background-color:cyan;
+    border:2px solid darkblue;
+    margin-Left:50px;
+    margin-Right:50px;
+    box-shadow:5px 5px 4px 5px #888888;
+    border-radius:6px;
+    
+}
+.div_table th{
+    color: red;
+}
+.div_table td{
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div_table:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    animation: ease-in-out;
+    cursor: pointer;
+}
+.div_table table,th,td{
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+    border-spacing: 20px;
+}
+/* .contact_page form input,label,textarea,input[type=submit]{
+    display: block;   
+    width:200px;
+    height:40px;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}*/
+#contact-form{
+    display: block;   
+    width:200px;
+    height:40px;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}
+.contact_page{
+    margin-left: 500px;
+    margin-top: 150px;
+    background-color: lightgoldenrodyellow;
+    padding:20px;
+    width:450px;
+    height: 540px;
+    border: 3px solid darkcyan;
+    border-radius: 4px;
+    box-shadow:5px 5px 4px 5px #888888;
+}
